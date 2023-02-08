@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+    padding: 0;
+
+}
+
+button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+    color: black;
+    background-color: #E3E6F3;
+    font-family: 'Spartan', sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #e3e6f377;
+}
+
+:root {
+    --facebook: rgb(10, 45, 159);
+    --instagram: rgb(109, 3, 123);
+    --linkedin: rgb(10, 45, 159);
+    --email: rgb(109, 3, 123);
+}
+
+
+.redes-container ul li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.redes-container ul li a {
+    display: inline-block;
+    padding: 0 6px;
+    background: #1a1a1a;
+    color: #fff;
+    line-height: 50px;
+    font-size: 25px;
+    box-shadow: 0 3px 5px 0px rgb(0, 0, 0, .2);
+    transition: .2s;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+p1 {
+    font-size: 16px;
+    color: #E3E6F3;
+    margin: 15px 0 20px 0;
+}
+
+#feature {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("img/feature.JPG");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 35% right 0;
+    padding: 0 50px;
+    flex-direction: inherit;
+    position: relative;
+}
+
+
+.section-p1 {
+    padding: 10px 0px;
+    background-color: transparent;
+    width: 100%;
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("img/DSC_9423.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    margin: 15px 0 20px 0;
+    font-size: 16px;
+    color: white;
+}
+
+#newsletter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E3E6F3;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    max-height: 111px;
+}
+.new{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    max-height: 130px;
+}
+#newsletter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+}
+
+#newsletter p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 4px;
+    outline: none;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    background-color: #088178;
+    color: #1a1a1a;
+    white-space: nowrap;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    margin-bottom: 25px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .install img {
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #088178;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+
+.back-img {
+    background-image: url(img/verde\ 3.jpeg);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    padding: 50px;
+    background-position: right;
+}
+
+.back-service {
+    background-image: url(img/image1.jpg);
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+}
+.back-img-multi {
+    background-image: url(img/multimedia.jpeg);
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+    background-position: 1px;
+}
+
+
+#feature2 {
+    background-image: url("img/image15.jpg");
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+}
+
+#button .white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+video {
+    width: 100%;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    max-height: 111px;
+    flex-direction: row;
+}
+.wrapper{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    display: flexbox;
+}
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1500px;
+}
+
+header .logo {
+    width: 195px;
+    font-size: 70px;
+    line-height: 55px;
+    float: left;
+}
+
+header h4 {
+    position: absolute;
+    left: 10%;
+    bottom: 1rem;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 6%);
+    z-index: 999;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.intro {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #465b52;
+    transition: 1s;
+}
+
+.logo-header {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+logo {
+    position: relative;
+    display: contents;
+    width: 30%;
+ 
+}
+
+.logo.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+    box-sizing: border-box;
+}
+
+.logo.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+}
+
+#navbar {
+    display: flex;
+    max-width: 1400px;
+    align-items: initial;
+    justify-content: flex-end;
+    margin: auto;
+    flex-wrap: inherit;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 1px 15px;
+    display: flex;
+    position: relative;
+
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #088178;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#mobile {
+    display: none;
+    align-items: center;
+}
+
+#close {
+    display: none;
+}
+
+#hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../myNewProjectCBD/img/CBH\ LOOP\ WEB.mp4) no-repeat;
+    background-clip: border-box;
+    background-position: center;
+}
